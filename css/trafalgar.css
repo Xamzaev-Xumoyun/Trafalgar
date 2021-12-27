@@ -1,0 +1,820 @@
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  src: 
+       url('../fonts/mulish-v7-latin-300.woff2') format('woff2'),
+       url('../fonts/mulish-v7-latin-300.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+       url('../fonts/mulish-v7-latin-regular.woff2') format('woff2'),
+       url('../fonts/mulish-v7-latin-regular.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  src: 
+       url('../fonts/mulish-v7-latin-700.woff2') format('woff2'), 
+       url('../fonts/mulish-v7-latin-700.woff') format('woff');
+ }
+
+
+
+
+
+
+
+*{
+  box-sizing: border-box;  
+  
+  
+  
+  
+}
+
+
+body{ 
+  margin:0;
+  font-family: "Mulish" , "Arial" , sans-serif;
+}
+
+.container{   
+  
+  width: 1300px;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  
+  margin: 0 auto;
+  
+}
+
+
+/* -------------------------------start-header---------------------------------------- */
+
+
+.fox-header{
+  
+  display: flex;
+  margin-top: 50px;
+  
+  
+}
+
+
+.site-logo{
+  
+  vertical-align: middle;
+  
+}
+
+.nav-menu{ 
+  display: flex;
+  
+  
+  
+}
+
+.menu-item-home{
+  margin-left: 500px;
+  margin-right: 40px;
+  list-style: none;
+  Font-family: "Mulish";
+  Font-style: normal ;
+  Font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+.menu-item{  
+  
+  margin-right: 40px;
+  list-style: none;
+  
+  vertical-align: middle;
+  
+  
+}
+
+
+.menu-list{
+  display: flex;
+  
+  
+}
+
+
+.menu-link{ 
+  text-decoration: none;
+  Font-family: "Mulish";
+  Font-style: normal ;
+  Font-size: 18px ;
+  Line-height: 23px ;
+  font-weight: 400 ;
+}
+.menu-link-home{ 
+  
+  color: #1F1534;
+  text-decoration: none;
+  
+}
+.menu-item-about{  
+  
+  margin-right:0px;
+  list-style:none;
+}
+
+
+/* ---------------------------start-main-------------------------------------------- */
+
+/*  ----------------------------start-section-one -------------------------------------------*/
+
+
+
+.herro{ margin-bottom: 60px;}
+
+.fox-herro{
+  
+  display: flex;
+  margin-top:50px ;
+  margin-bottom:50px;
+  
+}
+
+.fox-site{
+  
+  width: 550px;
+  height: 550px;
+  margin-right: 0px;
+  
+}
+
+.hero-section{   
+  
+  width: 427px;
+  height: 112px;
+  color:#000000;
+  display: flex; 
+  Font-style: normal;
+  font-weight: 700;
+  Font-size: 48px;
+  Line-height: 56px ;
+
+  
+}
+
+
+
+.herro-poragraf{
+  
+  font-size: 21px;
+  width: 300px;
+  height: 70px;
+  margin: 0px;
+  margin-bottom: 80px ;
+  color: #7D7987;
+  Font-style: normal;
+  font-weight: 300 ;
+  Font-size: 21px ;
+  Line-height: 32px ;
+  
+} 
+
+.herro-link{
+  
+  width: 200px;
+  height: 56px;
+  border: solid #458FF6;
+  border-radius: 56px;
+  text-decoration: none;
+  background-color: #458FF6;
+  color:#ffffff;
+  Font-size: 18px ;
+  Line-height: 60px ;
+  font-weight: 700 ;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.site-image{ 
+  
+  width: 640px;
+  height: 500px;
+}
+
+
+/*---------------------------- start-section-twoo -------------------------------*/
+
+.our-servises{
+  margin-bottom: 221px;
+}
+
+
+.servise-heading{
+  
+  font-style: 36px;
+  
+  text-align: center;
+  
+  margin-bottom: 26px;
+
+  font-weight: 700 ;
+  Font-size: 36px ;
+  Line-height: 56px ;
+}
+
+.spam-servise{
+  
+  width: 56px;
+  height: 2px;
+  background-color: #000000;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 33px;
+  
+  
+  
+}
+
+.servise-poragraf{
+  font-size: 18px;
+  color:  Solid #7D7987;
+  font-style: normal;
+  font-weight: 300 ;
+  Line-height: 30px ;
+  
+}
+
+
+.fox-box{
+  
+  width: 952px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+  
+}
+
+
+.servise-list{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 69px;
+  
+  
+  
+  
+}
+
+
+.servise-item{
+  width: 350px;
+  height: 354px;
+  list-style: none ;
+  
+}
+
+
+.servise-image-lupa{
+  margin-top: 54px;
+  margin-right: 221px;
+  margin-bottom: 22px;
+  margin-left: 37px;
+}
+
+.servise-item-heading{
+  margin-right: 151px;
+  margin-bottom: 5px;
+  margin-left: 39px;
+  width: 196px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+}
+
+.servise-item-poragraf{
+  margin-right: 45px;
+  margin-bottom: 46px;
+  margin-left: 39px;
+  font-style: normal;
+  font-size: 16px;
+  color:Solid #7D7987 ;
+  font-weight: 300;
+  line-height: 28px;
+  
+  
+  
+}
+
+.link{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #458FF6;
+  font-size: 18px;
+  padding: 10px 20px;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 220px;
+  border: solid 2px#458FF6 ;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  
+} 
+
+
+/* --------------------------start-section-three------------------------------ */
+
+.our-servises-three{
+  
+  margin-bottom: 269px;
+}
+.section-image-two{
+  
+  width: 500px;
+  height: 400px;
+  
+}
+.fox-section-two{ 
+  display: flex;
+}
+
+.fox-two{
+  width: 600px;
+  height: 500px;
+  margin-left: 142px;
+  
+  
+}
+
+.section-heading-two{
+  font-size: 36px;
+  width:481px ;
+  height: 112px;
+  margin-bottom: 0px ;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  
+}
+
+.spam-two{
+  width: 56px;
+  height: 2px;
+  background-color: #000000;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 31px;
+  
+}
+.section-poragraf-two{
+  
+  font-size: 18px;
+  width: 450px;
+  height: 120px;
+  color: #7D7987;
+  margin-bottom: 37px;
+  font-style: normal;
+  font-weight: 300 ;
+  line-height: 30px;
+
+}
+
+
+.link-two{
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #458FF6;
+  padding: 10px 20px;
+  border: solid 2px#458FF6 ;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+
+/* ---------------------------section-four------------------------------ */
+
+.fox-servise-three{
+  display: flex; 
+  align-items: center;
+}
+
+.fox-box-three{  
+  vertical-align: middle;
+  width: 600px;
+  height: 500px;
+}
+
+.heading-servise-three{
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+
+}
+
+.fox-little{ 
+  width: 56px;
+  height: 2px;
+  background-color: #000000;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 31px;
+}
+
+.poragraf{
+  font-style: 18px;
+  color: #7D7987;
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+.site-link{
+  
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #458FF6;
+  padding: 10px 20px;
+  border: solid 2px#458FF6 ;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+
+
+/* ----------------------------start-five------------------------------------ */
+
+
+
+.servise-box-herro{
+  
+  border-radius: 24px;
+  background-color:#5A98F2;
+  margin-bottom: 40px;
+  height: 450px;
+}
+
+
+
+
+.herro-servise{
+  padding-top:  61px;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+
+.box-little{ 
+  width: 56px;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.servise-fox{
+  width: 1300px;
+  
+}
+
+
+
+
+.servise-box-site{
+
+display: flex;
+
+
+
+}
+
+
+
+.image-idward{
+  display: inline;
+  
+  width: 133px;
+  height: 133px;
+  margin-top: 70px;
+  margin-right: 33px;
+  margin-bottom: 0px;
+  margin-left: 124px; 
+  
+  
+}
+
+
+.box-igame-text{ 
+  
+  
+  list-style:none;
+  vertical-align: middle;
+  padding: 0px;
+  margin-top: 110px;
+  margin-left: 20px ;
+  font-style: normal;
+  font-size: 22px;
+  font-weight:700 ;
+  line-height:48px ;
+  
+  
+  
+  
+}
+.box-image-poragraf{
+  
+  font-size:22px ;
+  color:#ffffff;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 48px;
+  
+  
+}
+
+.box-image-poragraf-fox{
+  font-size: 18px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  
+  
+}
+
+
+.poragraf-section-site{
+  padding: 0px;
+  margin-top: 100px;
+  margin-left: 100px;
+  font-size:19px ;
+  width: 420px;
+  height: 120px;
+  color:#ffffff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+
+
+
+.image-next-page{
+ display: block;
+  width: 336px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.idward-newgate{
+  margin-bottom: 221px;
+}
+
+
+
+
+/* --------------------------------section-six----------------------------- */
+
+
+.section-site-herro-{
+  font-style: normal;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+
+} 
+
+
+
+
+
+
+
+.section-spam-little{  
+  width: 56px;
+  height: 2px;
+  border-radius: 40px;
+  background-color: #000000;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+
+.logik-box{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.section-item-herro{
+  font-size: 21px;
+  margin-top: 21px;
+  width: 251px;
+  height: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.section-item-poragraf{
+ font-size: 16px;
+ color: #7D7987;
+ width: 256px;
+ height: 84px;
+ font-weight: 300;
+ line-height: 28px;
+ font-style: normal;
+
+}
+ .link-sektion{
+ text-decoration: none;
+ color:#458FF6;
+ font-size: 17px;
+ line-height: 28px;
+ font-style: normal;
+ font-weight: 700;
+ 
+ 
+
+
+ }
+ .link-site{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #458FF6;
+  font-size: 18px;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 201px;
+  border: solid 2px#458FF6;
+  border-radius: 50px;
+  margin-top: 61px;
+  font-weight: 700;
+  line-height: 60px;
+  font-style: normal;
+
+ }
+
+ /*------------------------------- start-footer -----------------------------------*/
+
+
+ .footer{
+ 
+  
+  height: 432px;
+  background-color: #458FF6;
+ }
+
+
+
+
+
+  .box-footer{
+   display: flex;
+   
+    
+  
+  }
+  
+  
+ 
+
+  .box-little-footer{
+    margin-right: 100px;
+
+
+
+  }
+
+
+ 
+
+
+ .footer-box{
+   padding-left: 0px;
+   margin-top: 124px;
+   margin-right: 250px;
+  width: 391px;
+  height: 201px;
+ }
+
+ .footer-box-poragraf{
+   color:#ffffff;
+  margin-top: 22px;
+  margin-bottom: 31px;
+ font-style: normal;
+ font-size: 18px;
+ font-weight: 300;
+ line-height: 28px;
+ width: 400px
+ }
+
+ 
+
+
+ .footer-item-text{
+   margin-bottom: 20px;
+
+
+ }
+
+ 
+
+ .strong-text{
+   color: #ffffff; 
+   font-style: normal;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 60px;
+ }
+
+ .footer-item{
+   padding-left: 0px;
+   margin-right: 20px;
+   list-style: none; 
+   text-decoration: none;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 38px;
+   font-weight: 300;
+   width: 132px;
+
+    
+ } 
+
+ 
+
+
+   
+ 
+  
+  .footer-link{
+    
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff; 
+    font-style: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+   
+  }
+
+ .box-footer-{
+   display: flex;
+   
+   margin-top: 124px;
+   
+
+ 
+ }
+
+  
+
+
+ 
+
+
+
+
+
+
+
+
+
